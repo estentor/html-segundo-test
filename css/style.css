@@ -1,0 +1,68 @@
+/* fuentes de google */
+/* 
+    font-family: 'Rokkitt', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Elsie', cursive;
+*/
+@import url('https://fonts.googleapis.com/css?family=Elsie|Montserrat+Alternates|Rokkitt');
+
+
+* {
+  box-sizing: border-box;
+  font-size: 12pt;
+  font-family: 'Montserrat Alternates';
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background-color: #CDCDCD;
+}
+header {
+	width: 100%;
+	background-color: #000;
+	height: 100px;
+}
+main{
+	width: 100%;
+}
+.content{
+	width: 80%;
+	margin-left: 10%;
+	height: 700px;
+	border: 1px solid #000000;
+	margin-top: 10px;
+}
+.logo{
+	margin-top: 50px;
+	
+}
+.logo img {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+#presentacion {
+	background-image: url('img/marts1.jpg')
+}
+#equipo {
+	margin-bottom: 20px;
+}
+
+#equipo article{
+	margin: 0 5% 0 0;
+	width: 45%;
+	float:left;
+}
+
+footer{
+	clear: both;
+	height: 200px;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	background-color: #000;
+}
+footer p {
+	color: #fff;
+}
